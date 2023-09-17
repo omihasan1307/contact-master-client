@@ -3,9 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: { basicColor: "#D80032" },
+      colors: {
+        basicColor: "#D80032",
+        secondaryColor: "#F9DEC9",
+      },
       backgroundColor: {
         basicColor: "#D80032",
+        secondaryColor: "#F9DEC9",
       },
     },
   },
